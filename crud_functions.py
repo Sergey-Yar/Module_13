@@ -23,13 +23,6 @@ def get_all_product():
     return products
 
 
-# get_all = cursor.execute('SELECT * FROM Products')
-# products = get_all.fetchall()
-# for i in products:
-#     print(i[1])
-
-
-
 connection.commit()
 connection.close()
 
