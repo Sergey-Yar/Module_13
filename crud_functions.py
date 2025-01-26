@@ -36,5 +36,3 @@ def is_included(username):
     return chek_user.fetchone() is None
 
 connection.commit()
-
-
