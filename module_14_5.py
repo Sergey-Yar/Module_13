@@ -130,7 +130,6 @@ async def all_message(message):
 
 
 
-
 if __name__ == '__main__':
     # crud_functions.get_all_product()
     executor.start_polling(dp, skip_updates=True)
